@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/stylesAdd.css">
+    <title>Add video</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo-title">
+                <img src="../img/logo.png" alt="Videotube logo">
+                <h1><a href="../index.html">Videotube</a></h1>
+            </div>
+           
+</header>
+
+<main>
+    <h2>Create a video</h2>
+    <form class="form">
+        <section>
+            <div class="div1">
+                <label for="title">Title</label>
+            <input type="text" id="title">
+    
+            <label for="channelName">Channel name</label>
+            <input type="text" id="channelName">
+    
+            <label for="views">Views</label>
+            <input type="text" id="views">
+    
+            <label for="date">Date</label>
+            <input type="text" id="date" placeholder="26 jun. 2021">
+    
+            <label for="profilePicture">Profile picture</label>
+            <input type="url" id="profilePicture">
+    
+            
+            </div>
+    
+            <div class="div2">
+                <label for="thumbnail">Thumbnail</label>
+            <input type="url" id="thumbnail">
+                <label for="media">Video link</label>
+            <input type="url" id="media">
+    
+            <label for="id">Id</label>
+            <input type="number" id="id">
+    
+            <!-- <label for="category">Category</label>
+            <input type="text" id="category"> -->
+            <label for="category">Category</label>
+            <select name="category" id="category">
+                <option value="" disabled>Choose an option</option>
+                <option value="music">Music</option>
+                <option value="programming">Programming</option>
+                <option value="uxdesign">UX Design</option>
+            </select>
+    
+            </div>
+        </section>
+        
+        
+        
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="../scripts/add.js" type="module"></script>
+</main>
+</body>
+</html>

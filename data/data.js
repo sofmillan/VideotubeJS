@@ -1,0 +1,403 @@
+export const youtube = [
+    {
+        title: "La evolución del layout en CSS",
+        channelName: "Leonidas Esteban",
+        views: 1738,
+        date: "26 jul. 2021",
+        profilePicture:"https://yt3.ggpht.com/ytc/AMLnZu-utA3aPH9aExOnpARAzfwPi-qTIMN1KHYjkyhDnA=s900-c-k-c0x00ffffff-no-rj",
+        thumbnail:"https://marketplace.canva.com/EAFKRVkOrZ4/1/0/1600w/canva-red-modern-programming-youtube-thumbnail-EKdCIcQGU_k.jpg",
+        media:"https://www.youtube.com/embed/g3RKFBbROjk",
+        category:"programming",
+        id:1
+    },
+    {
+        title: "Los mejores atajos  VS Code",
+        channelName: "Leonidas Esteban",
+        views: 1160,
+        date: "10 ago. 2021",
+        profilePicture:"https://yt3.ggpht.com/ytc/AMLnZu-utA3aPH9aExOnpARAzfwPi-qTIMN1KHYjkyhDnA=s900-c-k-c0x00ffffff-no-rj",
+        thumbnail:"https://i.ytimg.com/vi/VqCgcpAypFQ/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/k_r5Kh4wptQ",
+        category:"programming",
+        id:2
+    },
+    {
+        title: "EURODANCE 90'S MIX",
+        channelName: "András Jámbor",
+        views: 49351,
+        date: "29 dic. 2022",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/V1nHExavz_Y/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/5B210ltBzOQ",
+        category:"music",
+        id:3
+    },
+    {
+        title: "Paletas de color Figma",
+        channelName: "Leonidas Esteban",
+        views: 998,
+        date: "29 jul. 2021",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/taS8rwZSEXo/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/g3CbDto2zzs",
+        category:"uxdesign",
+        id:4
+    },
+    {
+        title: "ITZY 'NOT SHY' M/V",
+        channelName: "JYP Entertainment",
+        views: "26M",
+        date: "17 aug. 2020",
+        profilePicture:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/083bbf10-4b8c-474e-8b2b-bc4169faf93d/db3s048-0fae69c0-ccb7-4a57-91f6-d6708e089b03.png",
+        thumbnail:"https://i.ytimg.com/vi/wTowEKjDGkU/mqdefault.jpg",
+        media:"https://www.youtube.com/embed/wTowEKjDGkU",
+        category:"music",
+        id:5
+    },
+    {
+        title: "SQL Tutorial - Full Course for Beginners",
+        channelName: "freeCodeCamp",
+        views: "38M",
+        date: "2 jul. 2018",
+        profilePicture:"https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
+        thumbnail:"https://i.ytimg.com/vi/HXV3zeQKqGY/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/HXV3zeQKqGY",
+        category:"programming",
+        id:6
+    },
+    {
+        title: "How to Start Coding",
+        channelName: "Intellipaat",
+        views: "6.4M",
+        date: "25 feb. 2020",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/HIj8wU_rGIU/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/HIj8wU_rGIU",
+        category:"programming",
+        id:7
+    },
+    {
+        title: "Introduction to programming",
+        channelName: "FreeCodeCamp",
+        views: "6.2M",
+        date: "21 apr. 2020",
+        profilePicture:"https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
+        thumbnail:"https://i.ytimg.com/vi/zOjov-2OZ0E/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/zOjov-2OZ0E",
+        category:"programming",
+        id:8
+    },
+    {
+        title: "The reality of programming",
+        channelName: "Devon Crawford",
+        views: "1.2M",
+        date: "1 oct. 2018",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/YmWMi1kVCG8/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/YmWMi1kVCG8",
+        category:"programming",
+        id:9
+    },
+    {
+        title: "NCT U 'Universe(Let's Play Ball)' MV",
+        channelName: "SMTOWN",
+        views: "60M",
+        date: "10 dic. 2021",
+        profilePicture:"https://ih1.redbubble.net/image.513778205.1746/st,small,507x507-pad,600x600,f8f8f8.u5.jpg",
+        thumbnail:"https://i.ytimg.com/vi/SCK8yBLqQJc/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/SCK8yBLqQJc",
+        category:"music",
+        id:10
+    },
+    {
+        title: "UX Design Course Tutorial for Beginners",
+        channelName: "Lunes eLearning",
+        views: "812K",
+        date: "5 dec. 2020",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/uL2ZB7XXIgg/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/uL2ZB7XXIgg",
+        category:"uxdesign",
+        id:11
+    },
+    {
+        title: "YouTube Thumbnail with Photoshop",
+        channelName: "Think Media",
+        views: "447K",
+        date: "19 jul. 2019",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/xyVfLxV08I0/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/485yYXLZqxc",
+        category:"uxdesign",
+        id:12
+    },
+    {
+        title: "How to learn coding for beginners",
+        channelName: "codebasics",
+        views: "406K",
+        date: "4 apr. 2020",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/CptrlyD0LJ8/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/0d6NTZJ6q6A",
+        category:"programming",
+        id:13
+    },
+    {
+        title: "&TEAM 'Scent of you' Official MV",
+        channelName: "HYBE LABELS",
+        views: "4M",
+        date: "6 dec. 2022",
+        profilePicture:"https://yt3.ggpht.com/m_1dEnWPKaBqlTP5zg6sz2FOtlE6HfCsZj4-lOC6vTmoZXARkHuJEto-pqtCINxRaRU2rGGX=s900-c-k-c0x00ffffff-no-rj",
+        thumbnail:"https://i.ytimg.com/vi/69IT-53ULZA/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/69IT-53ULZA",
+        category:"music",
+        id:14
+    },
+    {
+        title: "Stray Kids 'SUPER BOARD'Video",
+        channelName: "Stray kids",
+        views: "10M",
+        date: "17 oct. 2022",
+        profilePicture:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/083bbf10-4b8c-474e-8b2b-bc4169faf93d/db3s048-0fae69c0-ccb7-4a57-91f6-d6708e089b03.png",
+        thumbnail:"https://i.ytimg.com/vi/8ziUcTYwARI/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/8ziUcTYwARI",
+        category:"music",
+        id:15
+    },
+    {
+        title: "Learn Python - Full Course",
+        channelName: "freeCodeCamp",
+        views: "38M",
+        date: "11 jul. 2018",
+        profilePicture:"https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
+        thumbnail:"https://i.ytimg.com/vi/rfscVS0vtbw/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/rfscVS0vtbw",
+        category:"programming",
+        id:16
+    },
+  
+    {
+        title: "Learn Node.js - Full Tutorial",
+        channelName: "freeCodeCamp",
+        views: "996K",
+        date: "4 dec. 2018",
+        profilePicture:"https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
+        thumbnail:"https://i.ytimg.com/vi/RLtyhwFtXQA/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/RLtyhwFtXQA",
+        category:"programming",
+        id:17
+    },
+    {
+        title: "(G)I-DLE HANN(Alone) Official Music Video",
+        channelName: "(G)I-DLE",
+        views: "138M",
+        date: "14 aug. 2018",
+        profilePicture:"https://i.pinimg.com/474x/d6/3a/27/d63a27b9356053b88d695b62c20a051f.jpg",
+        thumbnail:"https://i.ytimg.com/vi/OKNXn2qCEws/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/OKNXn2qCEws",
+        category:"music",
+        id:18
+    },
+    {
+        title: "What Is UX Design? (Video Guide)",
+        channelName: "CareerFoundry",
+        views: "118k",
+        date: "20 jun. 2018",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/v6n1i0qojws/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/ziQEqGZB8GE",
+        category:"uxdesign",
+        id:19
+    },
+    {
+        title: "UX Design Tutorial for Beginners Part 1",
+        channelName: "ACADGILD",
+        views: "78k",
+        date: "23 apr. 2018",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/uensMcitM6w/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/uensMcitM6w",
+        category:"uxdesign",
+        id:20
+    },
+    {
+        title: "First UX Design Portafolio",
+        channelName: "REUX",
+        views: "78k",
+        date: "23 apr. 2018",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/ryBxqlTDMA8/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/ryBxqlTDMA8",
+        category:"uxdesign",
+        id:21
+    },
+    {
+        title: "IVE 'ELEVEN' MV",
+        channelName: "HYBE LABELS",
+        views: "175M",
+        date: "1 dec. 2021",
+        profilePicture:"https://yt3.ggpht.com/m_1dEnWPKaBqlTP5zg6sz2FOtlE6HfCsZj4-lOC6vTmoZXARkHuJEto-pqtCINxRaRU2rGGX=s900-c-k-c0x00ffffff-no-rj",
+        thumbnail:"https://i.ytimg.com/vi/--FmExEAsM8/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/--FmExEAsM8",
+        category:"music",
+        id:22
+    },
+    {
+        title: "NMIXX 'O.O' M/V",
+        channelName: "JYP Entertainment",
+        views: "94M",
+        date: "22 feb. 2022",
+        profilePicture:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/083bbf10-4b8c-474e-8b2b-bc4169faf93d/db3s048-0fae69c0-ccb7-4a57-91f6-d6708e089b03.png",
+        thumbnail:"https://i.ytimg.com/vi/3GWscde8rM8/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/3GWscde8rM8",
+        category:"music",
+        id:23
+    },
+    {
+        title: "IZ*ONE - (La Vie en Rose) MV",
+        channelName: "Stone Music Entertainment",
+        views: "178M",
+        date: "29 oct. 2018",
+        profilePicture:"https://www.generasia.com/w/images/thumb/9/9f/Stone_Music_Entertainment.jpg/250px-Stone_Music_Entertainment.jpg",
+        thumbnail:"https://i.ytimg.com/vi/WZwr2a_lFWY/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/WZwr2a_lFWY",
+        category:"music",
+        id:24
+    },
+    {
+        title: "NCT DREAM 'Hello Future'MV",
+        channelName: "SMTOWN",
+        views: "97M",
+        date: "28 jun. 2021",
+        profilePicture:"https://ih1.redbubble.net/image.513778205.1746/st,small,507x507-pad,600x600,f8f8f8.u5.jpg",
+        thumbnail:"https://i.ytimg.com/vi/QPUjV7epJqE/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/QPUjV7epJqE",
+        category:"music",
+        id:25
+    },
+    {
+        title: "EVERGLOW (Bon Bon Chocolat) MV",
+        channelName: "Stone Music Entertainment",
+        views: "118M",
+        date: "18 mar. 2019",
+        profilePicture:"https://www.generasia.com/w/images/thumb/9/9f/Stone_Music_Entertainment.jpg/250px-Stone_Music_Entertainment.jpg",
+        thumbnail:"https://i.ytimg.com/vi/HvGql8HwOIM/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/HvGql8HwOIM",
+        category:"music",
+        id:26
+    },
+    {
+        title: "JavaScript Prgramming - Full Course",
+        channelName: "freeCodeCamp",
+        views: "2.3M",
+        date: "21 jun. 2021",
+        profilePicture:"https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.jpg",
+        thumbnail:"https://i.ytimg.com/vi/jS4aFq5-91M/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/jS4aFq5-91M",
+        category:"programming",
+        id:27
+    },
+    {
+        title: "Lofi hip hop - beats to relax/study to",
+        channelName: "Lofi Girls",
+        views: "277k",
+        date: "1 jan. 2023",
+        profilePicture:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhI83aV-xd8d7E3lkr7Rx0F5YSOQ83bcTvGQ&usqp=CAU",
+        thumbnail:"https://1.bp.blogspot.com/-KgVoAl8nfUg/X1D5H6zmA7I/AAAAAAAAB-4/n4u4qHh4kN0a8GToVjveE2gM9oLjR4pVACPcBGAYYCw/w919/lofi-girl-studying-hip-hop-radio-headphone-uhdpaper.com-4K-7.2708-wp.thumbnail.jpg",
+        media:"https://www.youtube.com/embed/i43tkaTXtwI",
+        category:"music",
+        id:28
+    },
+
+    {
+        title: "Should you become a UX designer in 2023?",
+        channelName: "Aliena Cai",
+        views: "11k",
+        date: "26 dec. 2022",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135823.png",
+        thumbnail:"https://i.ytimg.com/vi/0adSOj4JvvE/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/0adSOj4JvvE",
+        category:"uxdesign",
+        id:29
+    },
+    {
+        title: "How to Choose Colors (Easy 3-Step Process)",
+        channelName: "Flux Academy",
+        views: "265k",
+        date: "23 nov. 2020",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/KMS3VwGh3HY/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/KMS3VwGh3HY",
+        category:"uxdesign",
+        id:30
+    },
+    {
+        title: "(G)I-DLE - 'LION' Official Music Video)",
+        channelName: "(G)I-DLE",
+        views: "118M",
+        date: "3 nov. 2019",
+        profilePicture:"https://i.pinimg.com/474x/d6/3a/27/d63a27b9356053b88d695b62c20a051f.jpg",
+        thumbnail:"https://i.ytimg.com/vi/6oanIo_2Z4Q/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/6oanIo_2Z4Q",
+        category:"music",
+        id:31
+    },
+    {
+        title: "BTS 'DNA' Official MV",
+        channelName: "HYBE LABELS",
+        views: "1.5B",
+        date: "18 sep. 2017",
+        profilePicture:"https://yt3.ggpht.com/m_1dEnWPKaBqlTP5zg6sz2FOtlE6HfCsZj4-lOC6vTmoZXARkHuJEto-pqtCINxRaRU2rGGX=s900-c-k-c0x00ffffff-no-rj",
+        thumbnail:"https://i.ytimg.com/vi/MBdVXkSdhwU/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/MBdVXkSdhwU",
+        category:"music",
+        id:32
+    },
+    {
+        title: "BLACKPINK (DDU-DU-DDU-DU) M/V",
+        channelName: "BLACKPINK",
+        views: "2B",
+        date: "15 jun. 2018",
+        profilePicture:"https://pm1.narvii.com/6039/3d9b666a06b6d7dd6cec659ed4079950a51fe2a3_128.jpg",
+        thumbnail:"https://i.ytimg.com/vi/IHNzOHi8sJs/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/IHNzOHi8sJs",
+        category:"music",
+        id:33
+    },
+    {
+        title: "IKON (LOVE SCENARIO) M/V",
+        channelName: "IKON",
+        views: "609M",
+        date: "25 jan. 2018",
+        profilePicture:"https://pm1.narvii.com/6039/3d9b666a06b6d7dd6cec659ed4079950a51fe2a3_128.jpg",
+        thumbnail:"https://i.ytimg.com/vi/vecSVX1QYbQ/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/vecSVX1QYbQ",
+        category:"music",
+        id:34
+    },
+    {
+        title: "Python tutorial -Full Course for Beginners",
+        channelName: "Programming with Mosh",
+        views: "31M",
+        date: "18 feb. 2019",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        thumbnail:"https://i.ytimg.com/vi/_uQrJ0TkZlc/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/_uQrJ0TkZlc",
+        category:"programming",
+        id:35
+
+    },
+    {
+        title: "How I became a UI/UX Designer in 3 months",
+        channelName: "Rachel How",
+        views: "760K",
+        date: "28 may. 2021",
+        profilePicture:"https://cdn-icons-png.flaticon.com/512/3135/3135823.png",
+        thumbnail:"https://i.ytimg.com/vi/7OhauLZpJoU/maxresdefault.jpg",
+        media:"https://www.youtube.com/embed/7OhauLZpJoU",
+        category:"uxdesign",
+        id:36
+    },
+   
+
+];
