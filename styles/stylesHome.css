@@ -52,6 +52,7 @@ body{
     background-color: var(--primary);
     padding:8px;
     outline:none;
+    color:var(--white);
 }
 .header .search input::placeholder{
     color:var(--grey);
@@ -127,13 +128,13 @@ header .add a{
     width:303px;
     height:270px;
     margin-bottom:1rem;
+    position:relative;
 }
 
-.card:hover{
-    cursor:pointer;
-}
+
 .card .card-thumbnail img{
     width:100%;
+    cursor:pointer;
 }
 
 .card .card-info{
@@ -167,7 +168,27 @@ header .add a{
     line-height:24px;
 }
 
+.card .deletebtn{
+    display:none;
+    position:absolute;
+    right:0;
+    bottom:0;
+    width:22px;
+    height:25px;
+    border:none;
+    padding:none;
+    background:none;
+}
+.card .deletebtn img{
+    width:22px;
+    height:25px;
+    filter:invert();
+}
 
+.card:hover .deletebtn{
+    display:block;
+    cursor:pointer;
+}
 @media (max-width:820px){
     .header input{
         display:none;
@@ -176,8 +197,6 @@ header .add a{
 
 @media (max-width:620px){
     header nav{
-        /* background-color: blue;
-        min-width:550px; */
         overflow: scroll;
 
     }

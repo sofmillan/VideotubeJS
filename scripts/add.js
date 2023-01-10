@@ -8,7 +8,7 @@ form.addEventListener("submit",(event)=>{
     const valuesForm = Object.values(form);
 
     const newVideo = {};
-
+    newVideo.id=videos.length+1;
     valuesForm.forEach((input)=>{
         if(input.id){
             newVideo[input.id] =input.value;

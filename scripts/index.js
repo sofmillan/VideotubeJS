@@ -5,7 +5,9 @@ const btnAll = document.querySelector("#all");
 const btnProgramming = document.querySelector("#programming");
 const btnMusic = document.querySelector("#music");
 const btnDesign = document.querySelector("#uxdesign");
-
+const searchForm= document.querySelector(".search");
+const searchInput = document.querySelector("#inputSearch");
+let encontrado = [];
 const showVideos = (list, container) => {
   container.innerHTML = "";
 
@@ -26,11 +28,16 @@ const showVideos = (list, container) => {
                 <p class="channel-name">${video.channelName}</p>
                 <p><span class="views">${video.views}</span> views - <span class="date">${video.date}</span></p>
             </div>
+            <button class="deletebtn"><img src="./img/trash.png" name="${video.id}" class="delete"}></button>
+            
+
         </div>
         `;
-
+        
     container.appendChild(article);
+    
   });
+  encontrado=[];
 };
 
 // showVideos(youtube,cardsContainer)
@@ -66,8 +73,54 @@ filterButtons.forEach((button) => {
 document.addEventListener("click", (event) => {
   const { target } = event;
 
+  if(target.classList.contains("delete")){
+    const confirmDelete = confirm("Are you sure you want to delete?");
+
+    if(confirmDelete){
+      const idVideo = parseInt(target.name);
+      const positionVideo = videos.findIndex(video=>video.id===idVideo);
+      videos.splice(positionVideo,1);
+      showVideos(videos, cardsContainer);
+    }
+  }
+
   if (target.classList.contains("thumbnail")) {
     sessionStorage.setItem("details", JSON.stringify(target.id));
     window.location.href = "../pages/details.html";
   }
 });
+
+
+searchForm.addEventListener("submit",(event)=>{
+  event.preventDefault();
+  
+  let inputvalue = searchInput.value.toLowerCase();
+
+  if(inputvalue!=""){
+    videos.forEach((video)=>{
+    let title = video.title.toLowerCase();
+
+    if(title.match(inputvalue)){
+      encontrado.push(video);
+    }
+  })
+  
+  showVideos(encontrado, cardsContainer);
+  
+  }
+
+  
+  
+})
+
+// if(inputvalue!=""){
+//   videos.forEach((video)=>{
+//   let title = video.title.toLowerCase();
+
+//   if(title.match(inputvalue)){
+//     encontrado.push(video);
+    
+//   }
+//   showVideos(encontrado, cardsContainer);
+// })
+// }
