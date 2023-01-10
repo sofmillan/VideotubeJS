@@ -86,7 +86,7 @@ document.addEventListener("click", (event) => {
 
   if (target.classList.contains("thumbnail")) {
     sessionStorage.setItem("details", JSON.stringify(target.id));
-    window.location.href = "../pages/details.html";
+    window.location.href = "./pages/details.html";
   }
 });
 
